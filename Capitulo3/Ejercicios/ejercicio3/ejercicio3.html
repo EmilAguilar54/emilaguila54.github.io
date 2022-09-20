@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Días de las semana</title>
+</head>
+<body>
+	<form autocomplete="on">
+		<p>
+			<label for="listaSemana">
+				Día de la semana:
+				<input type="text" id="listaSemana"
+				placeholder="Selecciona un día de la semana" list="dia">
+
+				<datalist id="dia">
+					<option value="Domingo"></option>
+					<option value="Lunes"></option>
+					<option value="Martes"></option>
+					<option value="Miércoles"></option>
+					<option value="Jueves"></option>
+					<option value="Viernes"></option>
+					<option value="Sábado"></option>
+				</datalist>
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" valur="Borrar">
+		</p>
+	</form>
+</body>
+</html>

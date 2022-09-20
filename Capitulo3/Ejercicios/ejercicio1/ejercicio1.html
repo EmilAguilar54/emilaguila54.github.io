@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registro Web</title>
+</head>
+<body>
+	<h1>Registro Web</h1>
+
+	<form method="post">
+		<p>
+			<label>
+				Primer nombre:
+				<input type="text" id="nombre">(Primer nombre)
+			</label>
+		</p>
+		<p>
+			<label>
+				Apellido:
+				<input type="text" id="apellido">(Apellido)
+			</label>
+		</p>
+		<p>
+			<label>
+				Correo:
+				<input type="email" id="email"
+				placeholder="nombre@dominio.com"> (nombre@dominio.com)
+			</label>
+		</p>
+		<p>
+			<label for="listaAnio">
+				Año en que se encuentra en la universidad:
+				<input type="text" id="listaAnio"
+				placeholder="Seleccione un año" list="anio">
+				<datalist id="anio">
+					<option value="Primero"></option>
+					<option value="Segundo"></option>
+					<option value="Tercero"></option>
+					<option value="Cuarto"></option>
+					<option value="Quinto"></option>
+					<option value="Sexto"></option>
+				</datalist>
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" valur="Borrar">
+		</p>
+	</form>
+</body>
+</html>

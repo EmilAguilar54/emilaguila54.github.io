@@ -1,0 +1,154 @@
+/*Capitulo 2*/
+.cap2 {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.cap2:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+/*Capitulo 3*/
+.cap3 {
+  display: inline-block;
+  position: relative;
+}
+.cap3-dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.cap3:hover .cap3-dropdown-content {
+  display: block;
+}
+.cap3-dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+}
+.cap3-dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+
+/*Capitulo 3 ejemplos*/
+.ejemplo-cap3 {
+  display: inline-block;
+  position: relative;
+}
+.cap3-ejemplo-dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.ejemplo-cap3:hover .cap3-ejemplo-dropdown-content {
+  display: block;
+}
+.cap3-ejemplo-dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+}
+.cap3-ejemplo-dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+
+/*Capitulo 3 ejercicios*/
+.ejercicio-cap3 {
+  display: inline-block;
+  position: relative;
+}
+.cap3-ejercicio-dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.ejercicio-cap3:hover .cap3-ejercicio-dropdown-content {
+  display: block;
+}
+.cap3-ejercicio-dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+}
+.cap3-ejercicio-dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+
+
+/*Capitulo 2 ejemplos*/
+.ejemplo-cap2 {
+  display: inline-block;
+  position: relative;
+}
+.ejemplo-dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.ejemplo-cap2:hover .ejemplo-dropdown-content {
+  display: block;
+}
+.ejemplo-dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+}
+.ejemplo-dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+
+/*Capitulo 2 ejercicios*/
+.ejercicio-cap2 {
+  display: inline-block;
+  position: relative;
+}
+.ejercicio-dropdown-content {
+  display: none;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.ejercicio-cap2:hover .ejercicio-dropdown-content {
+  display: block;
+}
+.ejercicio-dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 15px;
+  text-decoration: none;
+}
+.ejercicio-dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
